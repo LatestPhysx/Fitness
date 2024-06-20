@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Bowlby One";
+    src: url(fonts/BowlbyOne-Regular.ttf);
+}
+@font-face {
+    font-family: "Bebas Neue";
+    src: url(fonts/BebasNeue-Regular.ttf);
+}
+body{
+    font-family: "Bowlby One";
+}
+.hea{
+    font-family: "Bowlby One";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+}
+.navbar >.container-fluid>.navbar-nav>li>a {
+    color: white;
+    transition: 0.57s;
+}
+.navbar >.container-fluid>.navbar-nav>li>a:hover {
+    color: yellow;
+    transition: 0.57s;
+}
+.title{
+    font-family: "Bowlby One";
+}
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.two{
+    text-align: center;
+    font-family: "Bowlby One";
+    color: #FAFF00;
+    font-weight: 400;
+    font-size: 38px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 2;
+}
+.img{
+    position: relative;
+}
+.mai{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.cont{
+    text-transform: uppercase;
+    font-family: "Bowlby One";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.57);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.57s;
+}
+.cont:hover{
+    opacity: 1;
+}
+.two>button:hover{
+    background-color: #FAFF00;
+    transition: 0.56s;
+}
+.cont>button:hover {
+    background-color: #FAFF00;
+    transition: 0.56s;
+}
+.wra{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+@media (min-width: 0px) {
+    .cont{
+        font-size: 6px;
+    }
+    .title{
+        font-size: 19px;
+    }
+    
+}
+@media (min-width: 576px) {
+    .cont:hover{
+        font-size: 11px;
+    }
+    .title{
+        font-size: 18px;
+    }
+
+}
+@media (min-width: 800px) {
+    .cont:hover{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 29px;
+    }
+}
+@media (min-width: 1500px) {
+    .cont:hover{
+        font-size: 27px;
+    }
+    .title{
+        font-size: 29px;
+    }
+}
