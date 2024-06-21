@@ -6,6 +6,10 @@
     font-family: "Bebas Neue";
     src: url(fonts/BebasNeue-Regular.ttf);
 }
+@font-face {
+    font-family: "Boogaloo";
+    src: url(fonts/Boogaloo-Regular.ttf);
+}
 body{
     font-family: "Bowlby One";
 }
@@ -80,6 +84,17 @@ video{
     opacity: 0;
     transition: 0.57s;
 }
+.four{
+    width: 100%;
+    border: 7px solid #310B4C;
+    border-radius: 11px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-family: "Boogaloo";
+    color: black;
+    text-transform: uppercase;
+}
 .cont:hover{
     opacity: 1;
 }
@@ -96,12 +111,51 @@ video{
     text-align: center;
     justify-content: center;
 }
+.head{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+}
+.vl{
+    border-left: 6px solid green;
+    height: 500px;
+}
+.line{
+    display: flex;
+    text-align: center;
+    width: 5px;
+    height: 100%;
+    background-color: black;
+}
+.contain{
+    position: relative;
+}
+.dih{
+    width: 90%;
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+.imgs{
+    position: absolute; 
+    left: 50%; 
+    top: 0; 
+    transform: translateX(-50%) translateY(-50%);
+}
 @media (min-width: 0px) {
     .cont{
         font-size: 6px;
     }
     .title{
         font-size: 19px;
+    }
+    .pi{
+        font-size: 4px;
+    }
+    .imgs{
+        width: 25%;
+        transform: translateX(-50%) translateY(-87%);
     }
     
 }
@@ -112,7 +166,13 @@ video{
     .title{
         font-size: 18px;
     }
-
+    .pi{
+        font-size: 9px;
+    }
+    .imgs{
+        width: 25%;
+        transform: translateX(-50%) translateY(-80%);
+    }
 }
 @media (min-width: 800px) {
     .cont:hover{
@@ -121,6 +181,28 @@ video{
     .title{
         font-size: 29px;
     }
+    .pi{
+        font-size: 11.5px;
+    }
+    .imgs{
+        width: 25%;
+        transform: translateX(-50%) translateY(-69%);
+    }
+}
+@media (min-width: 1000px) {
+    .cont:hover{
+        font-size: 16px;
+    }
+    .title{
+        font-size: 29px;
+    }
+    .pi{
+        font-size: 14px;
+    }
+    .imgs{
+        width: 25%;
+        transform: translateX(-50%) translateY(-50%);
+    }
 }
 @media (min-width: 1500px) {
     .cont:hover{
@@ -128,5 +210,12 @@ video{
     }
     .title{
         font-size: 29px;
+    }
+    .pi{
+        font-size: 22px;
+    }
+    .imgs{
+        width: 25%;
+        transform: translateX(-50%) translateY(-50%);
     }
 }
