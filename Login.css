@@ -1,0 +1,223 @@
+@font-face {
+    font-family: "Bowlby One";
+    src: url(fonts/BowlbyOne-Regular.ttf);
+}
+html{
+    height: 100vh;
+}
+body{
+    height: 100vh;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.one{
+    width: 50%;
+    height: 100%;
+}
+.one > img{
+    width: 100%;
+    height: 100%;
+}
+.two{
+    display: flex;
+    position: relative;
+    width: 50%;
+    height: 100%;
+    background: linear-gradient(grey,white);
+}
+.first{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    position: absolute;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 17%;
+    background-color: black;
+    border-radius: 13px;
+}
+.logo > img{
+    width: 75%;
+    height: 60%;
+}
+.hr-text{
+    font-family: "Bowlby One";
+    font-weight: 400;
+    font-size: 37px;
+    text-transform: uppercase;
+    border: none;
+    position: relative;
+    text-align: center;
+    opacity: 1;
+    width: 100%;
+}
+.hr-text::before{
+    background-color: black;
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    top: 50%;
+    width: 100%;
+}
+.hr-text::after{
+    content: attr(data-content);
+    position: relative;
+    color: black;
+    width: 100%;
+    background: linear-gradient(#9f9f9f,#a7a7a7);
+}
+
+.inp{
+    margin: 6% 0 3% 0;
+}
+.inp > label{
+    text-transform: uppercase;
+    margin-bottom: 4px;
+    font-family: "Bowlby One";
+    font-weight: 400;
+    font-size: 26px;
+}
+.cont{
+    margin-left: 4%;
+    height: 60%;
+    width: 80%;
+}
+.form{
+    height: 100%;
+    width: 100%;
+}
+form{
+    height: 100%;
+    width: 100%;
+}
+.inp{
+    width: 100%;
+    height: 20%;
+    margin-bottom: 4%;
+}
+.inp > input{
+    background-color: #EFEAEA;
+    width: 80%;
+    height: 60%;
+    border: none;
+    border-radius: 20px;
+}
+.last{
+    border: 2px black solid;
+    opacity: 1;
+    width: 100%;
+}
+.bef{
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.but{
+    width: 75%;
+    font-family: "Bowlby One";
+    background: transparent;
+    border: 3.5px solid black;
+    font-weight: 400;
+    font-size: 28px;
+    text-transform: uppercase;
+    border-radius: 20px;
+}
+@media all and (min-width : 0px){
+    .hr-text{
+        font-size: 5px;
+    }
+    .inp > label{
+        font-size: 5px;
+    }
+    .but{
+        font-size: 5px;
+    }
+}
+@media all and (min-width : 320px){
+    .hr-text{
+        font-size: 10px;
+    }
+    .inp > label{
+        font-size: 10px;
+    }
+    .but{
+        font-size: 10px;
+    }
+}
+@media all and (min-width : 550px){
+    .hr-text{
+        font-size: 12.5px;
+    }
+    .inp > label{
+        font-size: 12.5px;
+    }
+    .but{
+        font-size: 12.5px;
+    }
+}
+@media all and (min-width : 800px){
+    .hr-text{
+        font-size: 15px;
+    }
+    .inp > label{
+        font-size: 15px;
+    }
+    .but{
+        font-size: 15px;
+    }
+}
+@media all and (min-width : 1000px){
+    .hr-text{
+        font-size: 17px;
+    }
+    .inp > label{
+        font-size: 17px;
+    }
+    .but{
+        font-size: 17px;
+    }
+}
+@media all and (min-width : 1200px){
+    .hr-text{
+        font-size: 19px;
+    }
+    .inp > label{
+        font-size: 19px;
+    }
+    .but{
+        font-size: 19px;
+    }
+}
+@media all and (min-width : 1500px){
+    .hr-text{
+        font-size: 22px;
+    }
+    .inp > label{
+        font-size: 22px;
+    }
+    .but{
+        font-size: 22px;
+    }
+}
