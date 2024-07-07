@@ -19,6 +19,9 @@ body{
     font-weight: 400;
     font-size: 24px;
 }
+a{
+    text-decoration: none;
+}
 .navbar >.container-fluid>.navbar-nav>li>a {
     color: white;
     transition: 0.57s;
@@ -143,6 +146,128 @@ video{
     top: 0; 
     transform: translateX(-50%) translateY(-50%);
 }
+.footer{
+    height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+.footer>.container{
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+}
+.footer>.container  >.row>.col-3>.row>.body{
+    font-family: "Bowlby One";
+    color: #FAFF00;
+    font-size: 20px;
+}
+.footer>.container>.row>.col-3>.row>.con{
+    font-family: "Boogaloo";
+    font-size: 20px;
+}
+.con{
+    color: white;
+    position: relative;
+    width: 100%;
+}
+.reset {
+    all: revert;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+fieldset{
+    background-image:url(photos/img15.png);
+}
+.item{
+    border: 4px white solid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.sec{
+    position: relative;
+    align-content: end;
+}
+.le{
+    font-family: "Boogaloo";
+    color: yellow;
+}
+.cq{
+    font-family: "Bebas Neue"
+}
+.sec{
+    position: relative;
+}
+.footer>.container>.row>.sec{
+    font-family: "Bebas Neue";
+    text-align: left;
+    display: flex;
+    align-items: end; 
+    justify-content: center;
+}
+.cla{
+    position: absolute;
+    bottom: 0;
+    width: 75%;
+    height: 40%;
+    border: 3px solid white;
+    text-wrap: nowrap;
+}
+.ge{
+    height: 100%;
+    font-size: 23px;
+}
+.ti{
+    font-family: "Boogaloo";
+    color: #FAFF00;
+}
+.spa{
+    font-family: "Boogaloo";
+    color: #FAFF00;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translateX(650%) translateY(682.5%);
+    background: linear-gradient(#453e40,#514e4c);
+}
+.ho>a{
+    color: white;
+}
+.ho>a:hover{
+    color: #FAFF00;
+    transition: 0.56s;
+}
+.last-but{
+    align-content: center;
+    position: relative;
+    text-transform: uppercase;
+    font-family: "Bowlby One"; 
+}
+.buttons{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+.last-but>button:hover{
+    background-color: #FAFF00;
+    transition: 0.56s;
+}
+.last-but>a>button{
+    color: white;
+}
+.last-but>a>button:hover{
+    background-color: #FAFF00;
+    color: black;
+    transition: 0.56s;
+}
+
 @media (min-width: 0px) {
     .cont{
         font-size: 6px;
@@ -157,7 +282,27 @@ video{
         width: 25%;
         transform: translateX(-50%) translateY(-87%);
     }
-    
+    .two{
+        font-size: 10px;
+    }
+    .hea>a{
+        font-size: 9px;
+    }
+    .cont>button{
+        font-size: 6px;
+    }
+    .two>button{
+        font-size: 6px;
+    }
+    .footer *{
+        font-size: 6px;
+    }
+    .footer>.container>.row>.last-but>a>button{
+        font-size: 6px;
+    }
+    .footer>.container>.row>.col-3>.row>.ty{
+        font-size: 6px;
+    }
 }
 @media (min-width: 576px) {
     .cont:hover{
@@ -172,6 +317,27 @@ video{
     .imgs{
         width: 25%;
         transform: translateX(-50%) translateY(-80%);
+    }
+    .two{
+        font-size: 15px;
+    }
+    .hea>a{
+        font-size: 11px;
+    }
+    .cont>button{
+        font-size: 10px;
+    }
+    .two>button{
+        font-size: 10px;
+    }
+    .footer *{
+        font-size: 10px;
+    }
+    .footer>.container>.row>.last-but>a>button{
+        font-size: 10px;
+    }
+    .footer>.container>.row>.col-3>.row>.ty{
+        font-size: 10px;
     }
 }
 @media (min-width: 800px) {
@@ -188,6 +354,27 @@ video{
         width: 25%;
         transform: translateX(-50%) translateY(-69%);
     }
+    .two{
+        font-size: 19px;
+    }
+    .hea>a{
+        font-size: 18px;
+    }
+    .cont>button{
+        font-size: 15px;
+    }
+    .two>button{
+        font-size: 15px;
+    }
+    .footer *{
+        font-size: 15px;
+    }
+    .footer>.container>.row>.last-but>a>button{
+        font-size: 15px;
+    }
+    .footer>.container>.row>.col-3>.row>.ty{
+        font-size: 15px;
+    }
 }
 @media (min-width: 1000px) {
     .cont:hover{
@@ -203,6 +390,27 @@ video{
         width: 25%;
         transform: translateX(-50%) translateY(-50%);
     }
+    .two{
+        font-size: 22px;
+    }
+    .hea>a{
+        font-size: 21px;
+    }
+    .cont>button{
+        font-size: 18px;
+    }
+    .two>button{
+        font-size: 18px;
+    }
+    .footer *{
+        font-size: 18px;
+    }
+    .footer>.container>.row>.last-but>a>button{
+        font-size: 18px;
+    }
+    .footer>.container>.row>.col-3>.row>.ty{
+        font-size: 18px;
+    }
 }
 @media (min-width: 1500px) {
     .cont:hover{
@@ -212,10 +420,31 @@ video{
         font-size: 29px;
     }
     .pi{
-        font-size: 22px;
+        font-size: 24px;
     }
     .imgs{
         width: 25%;
-        transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-60%);
+    }
+    .two{
+        font-size: 28px;
+    }
+    .hea>a{
+        font-size: 26px;
+    }
+    .cont>button{
+        font-size: 22px;
+    }
+    .two>button{
+        font-size: 22px;
+    }
+    .footer *{
+        font-size: 22px;
+    }
+    .footer>.container>.row>.last-but>a>button{
+        font-size: 22px;
+    }
+    .footer>.container>.row>.col-3>.row>.ty{
+        font-size: 22px;
     }
 }

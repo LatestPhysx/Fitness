@@ -1,0 +1,24 @@
+@font-face {
+    font-family: "Bowlby One";
+    src: url(fonts/BowlbyOne-Regular.ttf);
+}
+body{
+    height: 100vh;
+    background: linear-gradient(to right,#FFFFFF,#C6B3B3);
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    background-color: black;
+    border-radius: 13px;
+}
+.our{
+    font-family: "Bowlby One";
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 48px;
+    text-decoration: underline;
+}
