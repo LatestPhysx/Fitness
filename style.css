@@ -12,6 +12,7 @@
 }
 body{
     font-family: "Bowlby One";
+    background: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%);
 }
 .hea{
     font-family: "Bowlby One";
@@ -71,6 +72,14 @@ video{
     display: block;
     margin: auto;
 }
+.two>a>button:hover{
+    background-color: #FAFF00;
+    transition: 0.56s;
+}
+.cont>a>button:hover{
+    background-color: #FAFF00;
+    transition: 0.56s;
+}
 .cont{
     text-transform: uppercase;
     font-family: "Bowlby One";
@@ -88,6 +97,7 @@ video{
     transition: 0.57s;
 }
 .four{
+    position: relative;
     width: 100%;
     border: 7px solid #310B4C;
     border-radius: 11px;
@@ -132,12 +142,14 @@ video{
 }
 .contain{
     position: relative;
+    background-image: none;
 }
 .dih{
     width: 90%;
     position: absolute; 
     top: 50%; 
     left: 50%; 
+    background: unset;
     transform: translate(-50%, -50%);
 }
 .imgs{
