@@ -155,6 +155,10 @@ form{
     text-transform: uppercase;
     border-radius: 20px;
 }
+.bef>button:hover{
+    background-color: yellow;
+    transition: 0.56s;
+}
 @media all and (min-width : 0px){
     .hr-text{
         font-size: 5px;
